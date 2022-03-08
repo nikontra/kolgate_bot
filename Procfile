@@ -1,0 +1,1 @@
+worker: python kolgate_bot.py
