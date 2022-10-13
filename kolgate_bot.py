@@ -6,11 +6,12 @@ import logging
 from telegram.ext import CommandHandler, Updater
 from telegram import ReplyKeyboardMarkup
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
-secret_token = os.getenv('TOKEN')
+# secret_token = os.getenv('TOKEN')
+secret_token = '5103331195:AAHXEOnA3xkeBvqWEE9d0imWk0TDWQPP0kk'
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
